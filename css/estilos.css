@@ -1,5 +1,37 @@
-.forma{
-    width: 300px;
-    heigth: 300px;
-    background-color: aqua;
+.forma{ 
+    margin:automático;
+    ancho:300px;
+    altura:300px;
+    color_de_fondo: cadetblue;
+}
+.forma__cubo {
+    estilo de borde : sólido;
+    radio de borde :  10 % ;
+    margen : automático;
+    relleno :  15 px ;
+    ancho :  200 px ;
+    altura :  200 px ;
+    color de fondo : tomate;
+}
+.forma__circulo{
+    radio de borde:50px;
+    ancho :  250 px ;
+    altura :  250 px ;
+    color de fondo : chartreuse;
+}
+.forma__cubo - verde {
+    pantalla : ninguna;
+    ancho :  200 px ;
+    altura :  200 px ;
+    color de fondo : verde amarillento;
+}
+
+.forma__cubo {
+    color de fondo : blueviolet;
+}
+.forma__cubo - miniatura {
+    margen :  -50 px  10 px ;
+    color de fondo : chartreuse;
+    ancho :  100 px ;
+    altura :  100 px ;
 }
