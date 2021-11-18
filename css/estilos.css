@@ -1,26 +1,32 @@
 .titulo{
-    color: rgb(3, 41, 41);
-    background-color: rgb(7, 226, 106);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    color: rgb(8, 133, 133);
+    font-family: 'praise',sans-serif;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 3px 5px 5px black;
 }
 .encabezado{
     background-color: cadetblue;
     border-radius: 5px;/*bordes redondeados header*/
-    height: 50px;/*ancho heder*/
+    height: 80px;/*ancho heder*/
+
 }
 .salon{
     color: black;
     font-family: fantasy;
 }
 .navegacion{
-    display:flex;}/*alinear navegacion*/
+    display:flex;/*alinear navegacion*/
 }
 .fondo{
-    background-color: rgb(247, 241, 241);
-    height: 300px;
-    background-image: url('/Imagen/img_inicio.JPG');
-    background-size: 100px 100px;
+    background-image: url('../Imagen/img_inicio.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;/*para no repetir la imagen*/
 }
+.encabezado__salon{
+    background-color: cadetblue;
+    border-radius: 5px;/*bordes redondeados header*/
+    height: 50px;/*ancho heder*/
+}
+
 
