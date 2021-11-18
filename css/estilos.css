@@ -1,37 +1,26 @@
-.forma{ 
-    margin:automático;
-    ancho:300px;
-    altura:300px;
-    color_de_fondo: cadetblue;
+.titulo{
+    color: rgb(3, 41, 41);
+    background-color: rgb(7, 226, 106);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
 }
-.forma__cubo {
-    estilo de borde : sólido;
-    radio de borde :  10 % ;
-    margen : automático;
-    relleno :  15 px ;
-    ancho :  200 px ;
-    altura :  200 px ;
-    color de fondo : tomate;
+.encabezado{
+    background-color: cadetblue;
+    border-radius: 5px;/*bordes redondeados header*/
+    height: 50px;/*ancho heder*/
 }
-.forma__circulo{
-    radio de borde:50px;
-    ancho :  250 px ;
-    altura :  250 px ;
-    color de fondo : chartreuse;
+.salon{
+    color: black;
+    font-family: fantasy;
 }
-.forma__cubo - verde {
-    pantalla : ninguna;
-    ancho :  200 px ;
-    altura :  200 px ;
-    color de fondo : verde amarillento;
+.navegacion{
+    display:flex;}/*alinear navegacion*/
+}
+.fondo{
+    background-color: rgb(247, 241, 241);
+    height: 300px;
+    background-image: url('/Imagen/img_inicio.JPG');
+    background-size: 100px 100px;
 }
 
-.forma__cubo {
-    color de fondo : blueviolet;
-}
-.forma__cubo - miniatura {
-    margen :  -50 px  10 px ;
-    color de fondo : chartreuse;
-    ancho :  100 px ;
-    altura :  100 px ;
-}
