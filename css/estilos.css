@@ -6,27 +6,39 @@
     text-shadow: 3px 5px 5px black;
 }
 .encabezado{
-    background-color: cadetblue;
+    background-color: rgb(112, 217, 221);
     border-radius: 5px;/*bordes redondeados header*/
     height: 80px;/*ancho heder*/
-
 }
 .salon{
     color: black;
     font-family: fantasy;
 }
+.navegacion ul li{/*menu navegacion*/
+    display: inline;
+    margin: 0px 30px;
+}
 .navegacion{
-    display:flex;/*alinear navegacion*/
+    display: flex;
+    justify-content: space-evenly;
 }
 .fondo{
     background-image: url('../Imagen/img_inicio.JPG');
     background-size: cover;
     background-repeat: no-repeat;/*para no repetir la imagen*/
+    justify-content: center
+
 }
 .encabezado__salon{
     background-color: cadetblue;
     border-radius: 5px;/*bordes redondeados header*/
     height: 50px;/*ancho heder*/
+    
 }
+.body{
+    margin: 0;
+    padding: 0;
+}
+
 
 
