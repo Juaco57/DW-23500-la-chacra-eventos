@@ -12,7 +12,8 @@
 </head>
 <body class="fondo">
     <header class="encabezado">
-        <nav class="navegacion">
+            <nav class="navegacion">
+                <img src="../Imagen/logo salon.jpg" alt="logo_salon" class="imagenheader">
             <ul>
                 <li>
                     <a href="../index.html">Inicio</a>
@@ -36,24 +37,43 @@
         </nav>
     </header>
     <main>
-        <!-- corregir aqui -->
-        <section>
-        <div class="card_nuestro_salon">
-            <h1 class="titulo_salon">Nuestro salon </h1>
-        </div>
-                <div class="card_salon">
-                <p class="descripcion_salon">Sencillamente incomparables por su bello entorno, LA CHACRA EVENTOS dispone de las instalaciones perfectas para eventos tanto en un ambiente exterior como en uno interior.  </p>
+        <section class="card__column">
+                <div class="titulo_salon">
+                    <h1 class="titulo_salon">Nuestro salon </h1>
                 </div>
-            <div class="card_salon">
-                <img src="../Imagen/Salon.JPG" alt="salon" class="img_salon">
-                    <h3>Contamos con un servicio integral<h3>
+                <div">
+                    <p class="descripcion_salon">Sencillamente incomparables por su bello entorno, LA CHACRA EVENTOS dispone de las instalaciones perfectas para eventos tanto en un ambiente exterior como en uno interior.  </p>
                 </div>
-                <div class="card_salon">
+                <!-- corregir aqui -->
+        
+            <div class="card">
+                    <img src="../Imagen/Salon.JPG" alt="salon" class="img_salon">
+                    <div class="card__content">
+                        <h3 class="card__titulo">Contamos con un servicio integral<h3>
+                        <p class="card__info">Servicio integral</p>   
+                </div>
+            </div>        
+                <div class="card">
                     <img src="../Imagen/salon1.JPG" alt="salon 1"class="img_salon">
-                    <h3>totalmente equipado</h3>
-                    <p>cuenta con un deck tanto interior como exterior</p>
+                    <div class="card__content">
+                        <h3 class="card__titulo">totalmente equipado</h3>
+                        <p class="card__info">cuenta con un deck tanto interior como exterior</p>
                 </div>
-            
+            </div>
+            <div class="card">
+                <img src="../Imagen/salon1.JPG" alt="salon 1"class="img_salon">
+                <div class="card__content">
+                    <h3 class="card__titulo">totalmente equipado</h3>
+                    <p class="card__info">cuenta con un deck tanto interior como exterior</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Imagen/salon1.JPG" alt="salon 1"class="img_salon">
+            <div class="card__content">
+                <h3 class="card__titulo">totalmente equipado</h3>
+                <p class="card__info">cuenta con un deck tanto interior como exterior</p>
+        </div>
+    </div>
         </section>
     </main>
     <footer>pie de pagina</footer>
