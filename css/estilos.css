@@ -12,8 +12,10 @@
 }
 .titulo_salon{
     color: rgb(180, 30, 30);
-    font-family: fantasy;
+    font-family: 'lobter',sans-serif
     align-items: center;
+    font-size: 80px;
+
 }
 .navegacion ul li{/*menu navegacion*/
     display: inline;
@@ -39,6 +41,7 @@
     background-repeat: no-repeat;/*para no repetir la imagen*/
     justify-content: center
     
+    
 }
 .encabezado__salon{
     background-color: cadetblue;
@@ -46,17 +49,31 @@
     height: 50px;/*ancho heder*/
     
 }
-.card{
+.cardsalon{
     display: flex;
 }
-.titulo_card{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.descripcion_salon{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(25, 7, 104);
-}
 
+
+.descripcion_salon{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.img_salon{/*correig aqui*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 30px;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    background: coral;
+    
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
 
 
 
