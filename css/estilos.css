@@ -1,15 +1,18 @@
 .titulo_inicio{
-    color: rgb(8, 133, 133);
+    color: rgb(221, 190, 14);
     font-family: 'praise',sans-serif;
     font-size: 50px;
     text-align: center;
     text-shadow: 3px 5px 5px black;
+    background-color: grey;
+    margin: auto ;
 }
 
 .encabezado{
     background-color: rgb(112, 217, 221);
     border-radius: 5px;/*bordes redondeados header*/
     height: 100px;/*ancho heder*/
+    border: black;
 }
 .encabezado__salon{
     background-color: cadetblue;
@@ -40,8 +43,12 @@
 .titulo_salon{
     color: rgb(180, 30, 30);
     font-family: 'lobter',sans-serif;
-    align-items: center;
+    text-align: center;
     font-size: 80px;
+    text-shadow: 3px 5px 5px black;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 
 .img_titulo{/*imagen de titulo salon*/
@@ -51,6 +58,8 @@
     height: 300px;
     width: 800px;
     border-radius: 15%;
+    background-color: black;
+    box-shadow: 10px 15px 5px black;
 }
 
 .fondo{
@@ -60,10 +69,11 @@
     background-size: cover;
     background-repeat: no-repeat;/*para no repetir la imagen*/
     justify-content: center;
+   
 }
 
 .descripcion_salon{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 40px;
 }
 .img_salon{/*correig aqui card*/
@@ -95,6 +105,10 @@
 .card__titulo{
     font-family: cursive;
     color: #b10606;
+}
+.img_inicio{
+    height: 100%;
+    width: 100%;
 }
 
 .pie_de_pag{
