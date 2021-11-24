@@ -111,6 +111,34 @@
     width: 100%;
 }
 
+#grid__templante{/*utulizamos grid*/
+    height: 500px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr; 
+    
+}
+.grid__items__ser{
+    border: black solid 5px;
+    background-color: blue;
+}
+.grid__items__amb{
+    border: black solid 5px;
+    background-color: chartreuse;
+}
+.grid__items__est{
+    border: black solid 5px;
+    background-color: coral;
+}
+.grid__items__cab{
+    border: black solid 5px;
+    background-color: yellow;
+}
+.grid__items__ext{
+    border: black solid 5px;
+    background-color: tomato;
+}
+
 .pie_de_pag{
     background-color: grey;
     display: flex;
