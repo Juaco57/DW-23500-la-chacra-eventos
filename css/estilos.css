@@ -53,6 +53,7 @@
     margin-top: auto;
     margin-bottom: auto;
     
+    
 }
 
 .img_titulo{/*imagen de titulo salon*/
@@ -91,7 +92,11 @@ fondo{
     justify-content: space-around;
     align-items: center;
     padding: 100px 30px;
+    background-color: beige;
     
+}
+.grid__card{
+    background-color: lightgray;
 }
 .card{
     display: flex;
