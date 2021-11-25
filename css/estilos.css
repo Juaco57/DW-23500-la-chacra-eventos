@@ -4,8 +4,9 @@
     font-size: 50px;
     text-align: center;
     text-shadow: 3px 5px 5px black;
-    background-color: grey;
+    background-color;
     margin: auto ;
+    padding: 50px;
 }
 
 .encabezado{
@@ -26,6 +27,9 @@
     align-items: center;
     width: 80px;
     height: 80%;
+}
+.img__inicio{
+    padding: 10px;
 }
 
 .navegacion ul li{/*menu navegacion*/
@@ -62,7 +66,7 @@
     box-shadow: 10px 15px 5px black;
 }
 
-.fondo{
+fondo{
     background-image: url('../Imagen/img_inicio.JPG');
     height: 100%;
     width: 100%;
@@ -111,32 +115,60 @@
     width: 100%;
 }
 
-#grid__templante{/*utulizamos grid*/
+#contenedor{/*utulizamos grid*/
     height: 500px;
     display: grid;
-    grid-template-columns: 3fr 2fr 1fr;
-    grid-template-rows: 2fr 2fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
     
 }
 .grid__items__ser{
-    border: black solid 5px;
-    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
 }
 .grid__items__amb{
-    border: black solid 5px;
-    background-color: chartreuse;
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
 }
 .grid__items__est{
-    border: black solid 5px;
-    background-color: coral;
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
 }
 .grid__items__cab{
-    border: black solid 5px;
-    background-color: yellow;
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
 }
 .grid__items__ext{
-    border: black solid 5px;
-    background-color: tomato;
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
+}
+.grid__items__pis{
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
+}
+.grid__items__esp{
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
+}
+.grid__items__menu{
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
+}
+.grid__items__rob{
+    border: black solid 3px;
+    background-color: rgb(153, 153, 212);
+}
+.est__fot{
+    height: 250px;
+    width: 250px;
+}
+.exterior{
+    height: 250px;
+    width: 250px;
 }
 
 .pie_de_pag{
