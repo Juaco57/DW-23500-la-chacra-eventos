@@ -29,7 +29,7 @@
     height: 80%;
 }
 .img__inicio{
-    padding: 10px;
+    background-size: contain;
 }
 
 .navegacion ul li{/*menu navegacion*/
@@ -91,14 +91,15 @@ fondo{
     justify-content: space-around;
     align-items: center;
     padding: 100px 30px;
+    
 }
 .card{
-    display: flex: ;
+    display: flex;
     background-color: #068fc16c;
     margin: 10px;
     width: 60%;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
     border: solid black;
 }
     
@@ -107,7 +108,7 @@ fondo{
     color: black;
 }
 .card__titulo{
-    font-family: cursive;
+    font-family:cursive;
     color: #b10606;
 }
 .img_inicio{
@@ -120,6 +121,7 @@ fondo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
+    background-color: steelblue;
     
 }
 .grid__items__ser{
@@ -127,44 +129,43 @@ fondo{
     grid-column-end: 3;
     grid-row-start: 1 ;
     grid-row-end: 3;
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+    
 }
 .grid__items__amb{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+    
 }
 .grid__items__est{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
 }
 .grid__items__cab{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+  
 }
 .grid__items__ext{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+     
 }
 .grid__items__pis{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+    
 }
 .grid__items__esp{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+   
 }
 .grid__items__menu{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+     
 }
 .grid__items__rob{
-    border: black solid 3px;
-    background-color: rgb(153, 153, 212);
+    border: black solid 2px;
+     
 }
 .est__fot{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
 }
 .exterior{
     height: 250px;
