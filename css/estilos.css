@@ -67,13 +67,15 @@
     box-shadow: 10px 15px 5px black;
 }
 
-fondo{
-    background-image: url('../Imagen/img_inicio.JPG');
+body{
+    margin: 0;
+    padding: 0;
+    /*background-image: url('../Imagen/img_inicio.JPG');
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;/*para no repetir la imagen*/
-    justify-content: center;
+    background-repeat: no-repeat;*//*para no repetir la imagen*/
+    /*justify-content: center;*/
    
 }
 
@@ -84,9 +86,10 @@ fondo{
 .img_salon{/*correig aqui card*/
     width: 300px;
     height: 300px;
+    border-radius: 15%;
 }
 .card__column{
-    
+    border: black solid 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -95,26 +98,37 @@ fondo{
     background-color: beige;
     
 }
-.grid__card{
-    background-color: lightgray;
+.grid_card{
+    background-color: rgb(212, 149, 14);
+    justify-content: center;
+    align-items: center;
+    border: solid black 3px;
 }
 .card{
     display: flex;
     background-color: #068fc16c;
-    margin: 10px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: center;
+    
     width: 60%;
     /* justify-content: space-between; */
     /* align-items: center; */
     border: solid black;
+    border-radius: 15%;
 }
     
 .card__info{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-left: 20px;
 }
 .card__titulo{
     font-family:cursive;
     color: #b10606;
+    align-items: center;
+    margin-left: 60px;
 }
 .img_inicio{
     height: 100%;
@@ -139,7 +153,10 @@ fondo{
 }
 .grid__items__amb{
     border: black solid 2px;
-    
+}
+.deco{
+   
+    justify-content: center;
 }
 .grid__items__est{
     border: black solid 2px;
@@ -162,11 +179,14 @@ fondo{
 }
 .grid__items__menu{
     border: black solid 2px;
+    
      
 }
 .grid__items__rob{
     border: black solid 2px;
-     
+}
+.robot_luminoso{
+    height: 300px;
 }
 .est__fot{
     height: 300px;
@@ -178,13 +198,14 @@ fondo{
 }
 
 .pie_de_pag{
-    background-color: grey;
+    background-color: rgb(250, 245, 245);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px;
     height: 60px;
     width: 100%;
+    border: black solid 2px;
 }
 .logo_redes{
     display: flex;
@@ -193,7 +214,16 @@ fondo{
     height: 60px;
     width: 60px;
 }
-
+.info__pie{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    justify-content: space-between;
+}
+.direccion{
+    font-family: cursive;
+    color: green;
+    background-color: khaki;
+}
 
 
 
