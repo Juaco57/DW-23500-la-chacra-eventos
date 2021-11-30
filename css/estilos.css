@@ -39,6 +39,7 @@
     display: inline;
     margin: 0px 30px;
     
+    
 }
 
 
@@ -47,6 +48,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 }
 
 .titulo_salon{
@@ -100,6 +102,11 @@ body{
     align-items: center;
     padding: 100px 30px;
     background-color: rgba(147, 207, 6, 0.521);
+    background-image: url(../Imagen/fondo\ verde1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
     
 }
 .grid_card{
