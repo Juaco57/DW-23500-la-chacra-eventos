@@ -10,10 +10,11 @@
 }
 
 .encabezado{
+    background-image: url(../Imagen/img_header2.jpg);
     background-color: rgb(112, 217, 221);
     border-radius: 5px;/*bordes redondeados header*/
     height: 100px;/*ancho heder*/
-    border: black;
+    border: black 10px;
 }
 .encabezado__salon{
     background-color: cadetblue;
@@ -28,6 +29,8 @@
     width: 80px;
     height: 80%;
 }
+
+
 .img__inicio{
     background-size: contain;
 }
@@ -35,7 +38,9 @@
 .navegacion ul li{/*menu navegacion*/
     display: inline;
     margin: 0px 30px;
+    
 }
+
 
 .navegacion{
     display: flex;
@@ -76,7 +81,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;*//*para no repetir la imagen*/
     /*justify-content: center;*/
-   
 }
 
 .descripcion_salon{
@@ -95,18 +99,22 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 100px 30px;
-    background-color: beige;
+    background-color: rgba(147, 207, 6, 0.521);
     
 }
 .grid_card{
-    background-color: rgb(212, 149, 14);
-    justify-content: center;
+    background-color: rgb(124, 175, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     border: solid black 3px;
 }
 .card{
     display: flex;
-    background-color: #068fc16c;
+    background-color: #06c1796c;
     align-items: center;
     margin-left: 50px;
     margin-top: 30px;
