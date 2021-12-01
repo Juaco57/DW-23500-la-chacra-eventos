@@ -11,6 +11,8 @@
 
 .encabezado{
     background-image: url(../Imagen/img_header2.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;  
     background-color: rgb(112, 217, 221);
     border-radius: 5px;/*bordes redondeados header*/
     height: 100px;/*ancho heder*/
@@ -118,6 +120,9 @@ body{
     /* justify-content: center; */
     /* align-items: center; */
     border: solid black 3px;
+    background-image: url(../Imagen/luces\ colgantes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card{
     display: flex;
@@ -138,12 +143,12 @@ body{
     
 .card__info{
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: rgb(238, 227, 227);
     margin-left: 20px;
 }
 .card__titulo{
     font-family:cursive;
-    color: #b10606;
+    color: #9cdf88;
     align-items: center;
     margin-left: 60px;
 }
@@ -157,7 +162,10 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
-    background-color: steelblue;
+    /* background-color: rgb(70, 130, 180); */
+    background-image: url(../Imagen/fondo\ grid.jpg);
+    
+
     
 }
 .grid__items__ser{
@@ -170,23 +178,29 @@ body{
 }
 .grid__items__amb{
     border: black solid 2px;
+    background-image: url(../Imagen/deco.jpg);
 }
-.deco{
    
-    justify-content: center;
 }
 .grid__items__est{
     border: black solid 2px;
+    background-image: url(../Imagen/estudio_fot.jpg);
+    background-size: cover;
 }
 .grid__items__cab{
     border: black solid 2px;
+    background-image: url(../Imagen/cab\ de\ fotos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   
 }
 .grid__items__ext{
     border: black solid 2px;
+    background-image: url(../Imagen/exteriores1.JPG);
+    background-size: cover;
      
 }
-.grid__items__pis{
+.grid__items__pis{ /*seguir aca*/ 
     border: black solid 2px;
     
 }
