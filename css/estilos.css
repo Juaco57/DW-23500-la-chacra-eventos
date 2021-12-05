@@ -3,12 +3,14 @@
 }
 .intro__info{
     color: white;
-    text-shadow: #fff 0 0 10px
+    text-shadow: #fff 0 0 10px;
+    text-align: center;
+        
 }
 
 
 
-.titulo_inicio{
+.titulo_inicio{ 
     color: rgb(221, 190, 14);
     font-family: 'praise',sans-serif;
     font-size: 50px;
@@ -142,7 +144,6 @@ body{
     margin-bottom: 30px;
     justify-content: center;
     box-shadow: black 10px 15px 5px;
-    
     width: 60%;
     /* justify-content: space-between; */
     /* align-items: center; */
@@ -302,9 +303,9 @@ body {
 }
 
 .wrapper {
-
 	max-width: 1200vw;
 	margin: 0 auto;
+    
 }
 
 .slider {
@@ -338,7 +339,7 @@ body {
 
 .slide a {
 	width: 100%;
-	display: inline-block;
+    display: inline-block;
 	position: relative;
 }
 
