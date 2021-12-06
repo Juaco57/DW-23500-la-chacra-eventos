@@ -6,11 +6,11 @@
     color: white;
     text-shadow: #fff 0 0 10px;
     text-align: center;
-   /* background-image: url(../Imagen/fondo_inicio_desc.jpg); 
+    background-image: url(../Imagen/fondo_inicio_desc.jpg); 
     position: absolute; 
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 /* .img_fondo_text{ */
     /* position: absolute; */
@@ -99,6 +99,8 @@
 body{
     margin: 0;
     padding: 0;
+    
+
     /*background-image: url('../Imagen/img_inicio.JPG');
     height: 100%;
     width: 100%;
@@ -259,6 +261,8 @@ footer{
     height: 100px;
     width: 100%;
     border: black solid 2px;
+    
+    
     
 }
 
