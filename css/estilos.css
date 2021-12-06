@@ -1,13 +1,19 @@
 .intro{
     background-color: black;
 }
+
 .intro__info{
     color: white;
     text-shadow: #fff 0 0 10px;
     text-align: center;
-        
+   /* background-image: url(../Imagen/fondo_inicio_desc.jpg); 
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;*/
 }
-
+/* .img_fondo_text{ */
+    /* position: absolute; */
 
 
 .titulo_inicio{ 
@@ -30,9 +36,8 @@
     height: 80px;/*ancho heder*/
     border: black 10px;
     background: linear-gradient(#333, #333 35%, #eee 70%, #333 70%);
-    
-    
 }
+
 .encabezado__salon{
     border-radius: 5px;/*bordes redondeados header*/
     height: 50px;/*ancho heder*/
@@ -45,10 +50,7 @@
     width: 65px;
     height: 65px;
     border-radius: 20%;
-    
-    
 }
-
 
 .img__inicio{
     background-size: contain;
@@ -57,6 +59,7 @@
 .navegacion ul li{/*menu navegacion*/
     display: inline;
     margin: 0px 30px;
+    
 }
 
 .navegacion{
@@ -64,6 +67,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px; 
+}
+
+.lista{
+    color: brown;
 }
 
 .titulo_salon{
@@ -104,11 +111,13 @@ body{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 40px;
 }
+
 .img_salon{/*correig aqui card*/
     width: 300px;
     height: 300px;
     border-radius: 15%;
 }
+
 .card__column{
     /* border: black solid 3px; */
     display: flex;
@@ -120,11 +129,8 @@ body{
     background-image: url(../Imagen/fondo\ verde1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-    
-    
 }
+
 .grid_card{
     background-color: rgb(124, 175, 243);
     display: flex;
@@ -138,6 +144,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .card{
     display: flex;
     background-color: #06c1796c;
@@ -153,18 +160,20 @@ body{
     border: solid black;
     border-radius: 15%;
 }
-    
+
 .card__info{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(238, 227, 227);
     margin-left: 20px;
 }
+
 .card__titulo{
     font-family:cursive;
     color: #9cdf88;
     align-items: center;
     margin-left: 60px;
 }
+
 .img_inicio{
     height: 100%;
     width: 100%;
@@ -177,65 +186,65 @@ body{
     grid-template-rows: 1fr 1fr 1fr; 
     /* background-color: rgb(70, 130, 180); */
     background-image: url(../Imagen/fondo\ grid.jpg);
-    
-
-    
 }
+
 .grid__items__ser{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1 ;
     grid-row-end: 3;
     border: black solid 2px;
-    
 }
+
 .grid__items__amb{
     border: black solid 2px;
     background-image: url(../Imagen/deco.jpg);
 }
-   
-}
+
 .grid__items__est{
     border: black solid 2px;
     background-image: url(../Imagen/estudio_fot.jpg);
     background-size: cover;
 }
+
 .grid__items__cab{
     border: black solid 2px;
     background-image: url(../Imagen/cab\ de\ fotos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
+
 .grid__items__ext{
     border: black solid 2px;
     background-image: url(../Imagen/exteriores1.JPG);
     background-size: cover;
-     
 }
+
 .grid__items__pis{ /*seguir aca*/ 
     border: black solid 2px;
-    
 }
+
 .grid__items__esp{
     border: black solid 2px;
-   
 }
+
 .grid__items__menu{
     border: black solid 2px;
-    
-     
 }
+
 .grid__items__rob{
     border: black solid 2px;
 }
+
 .robot_luminoso{
     height: 300px;
 }
+
 .est__fot{
     height: 300px;
     width: 300px;
 }
+
 .exterior{
     height: 250px;
     width: 250px;
@@ -250,7 +259,9 @@ footer{
     height: 100px;
     width: 100%;
     border: black solid 2px;
+    
 }
+
 .pie_de_pag{
     display: flex;
     justify-content: space-between;
@@ -259,6 +270,7 @@ footer{
     height: 60px;
     width: 100%;
 }
+
 .logo_redes{
     display: flex;
     justify-content: space-around;
@@ -266,17 +278,21 @@ footer{
     height: 60px;
     width: 60px;
 }
+
 .info__pie{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: brown;
     justify-content: space-between;
 }
+
 .direccion{
     font-family: cursive;
     color: green;
     background-color: khaki;
 }
+
 /*comienzo sliders*/
+
 @keyframes slide {
 	0% { transform: translateX(0); }
 	10% { transform: translateX(0); }
@@ -308,7 +324,6 @@ body {
 .wrapper {
 	max-width: 1200vw;
 	margin: 0 auto;
-    
 }
 
 .slider {
@@ -328,7 +343,6 @@ body {
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-    
 }
 
 /* .slides:hover .slide { 
