@@ -225,18 +225,26 @@ body{
 
 .grid__items__pis{ /*seguir aca*/ 
     border: black solid 2px;
+    background-image: url(../Imagen/pista\ baile.jpg);
+    background-size: cover;
 }
 
 .grid__items__esp{
     border: black solid 2px;
+    background-image: url(../Imagen/patio.jpg);
+    background-size: cover;
 }
 
 .grid__items__menu{
     border: black solid 2px;
+    background-image: url(../Imagen/menu_comida.jpg);
+    background-size: cover;
 }
 
 .grid__items__rob{
     border: black solid 2px;
+    background-image: url(../Imagen/robot_luminoso.jpg);
+    background-size: cover;
 }
 
 .robot_luminoso{
@@ -262,6 +270,7 @@ footer{
     height: 100px;
     width: 100%;
     border: black solid 2px;
+    
     
     
     
@@ -340,8 +349,6 @@ body {
 	display: flex;
 	overflow: hidden;
     padding: inherit;
-    
-
 }
 
 .slide {
@@ -423,6 +430,29 @@ body {
 		bottom: 96px;
 		right: 50px;
 	}
+}
+
+/* .info__nosotros{ 
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+
+/*corregir la img de fondo*/
+.nosotros{ 
+    background-image: url(../Imagen/fondo_sobre_nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    
+    
+}
+
+.info_nosotros{
+    font-size: 50px;
+    font-family: serif;
+    color: tomato;
 }
 
 
