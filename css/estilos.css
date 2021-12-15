@@ -92,40 +92,15 @@
     color: brown;
 }
 
-.titulo_salon{
-    color: rgb(180, 30, 30);
-    font-family: 'lobter',sans-serif;
-    text-align: center;
-    font-size: 80px;
-    text-shadow: 3px 5px 5px black;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 120px;
-    position: absolute;
-}
-
-.img_titulo{/*imagen de titulo salon*/
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
-    height: 300px;
-    width: 800px;
-    border-radius: 15%;
-    background-color: black;
-    box-shadow: 10px 15px 5px black;
+.img-fluid{
+    margin-top: 5px;
+    margin-right: 50px;
+    justify-content: center;
 }
 
 body{
     margin: 0;
     padding: 0;
-    
-
-    /*background-image: url('../Imagen/img_inicio.JPG');
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;*//*para no repetir la imagen*/
-    /*justify-content: center;*/
 }
 
 .descripcion_salon{
@@ -138,7 +113,7 @@ body{
     height: 300px;
     border-radius: 15%;
 }
-
+/* sobre nosotros */
 .card__column{
     /* border: black solid 3px; */
     display: flex;
@@ -287,6 +262,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+.logo_footer{
+    border-radius: 50%;
+    
 }
 
 .pie-pagina{
@@ -513,5 +493,14 @@ body {
     text-shadow: #fff 0 0 10px;
     text-align: center;
 }
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
 
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
 
