@@ -6,34 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="fondo">
-    <header class="encabezado">
-        <nav class="navegacion">
-            <img src="../Imagen/logo salon.jpg" alt="logo_salon" class="imagenheader">
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"></a><img class="logo_nav" src="../Imagen/logo salon.jpg" alt="logo-header">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html"><span>Inicio</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="nuestro-salon.html"><span>Nuestro salon</span></a>
                 </li>
-                <li>
-                    <a href="nuestro-salon.html">Nuestro salon</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html"><span>Servicios</span></a>
                 </li>
-                <li>
-                    <a href="./servicios.html">Servicios</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre-nosotros.html"><span>Sobre nosotros</span></a>
                 </li>
-                <li>
-                    <a href="./sobre-nosotros.html">Sobre nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="como-llegar.html"><span>Como llegar</span></a>
                 </li>
-                <li>
-                    <a href="./como-llegar.html">Como llegar</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html"><span>Contacto</span></a>
                 </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                
-            </ul>
-     </nav>
-    </header>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
     <main>
         <div class="nosotros">
                 <p class="info_nosotros" style="margin-top: 0;">A solo minutos de Paysandu, y situado en un inmejorable entorno, se encuentra nuestro complejo.
@@ -69,6 +77,7 @@
             </div>
         </div>
 </footer> 
-</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -12,6 +12,7 @@
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
+    justify-items: center;
 }
 /* .img_fondo_text{ */
     /* position: absolute; */
@@ -27,8 +28,12 @@
     margin: auto ;
     padding: 50px;
 }
+.logo_nav{
+    width: 50px;
+    border-radius: 50%;
+}
 
-.encabezado{
+/*.encabezado{
     /* background-image: url(../Imagen/img_header2.jpg); */
     /* background-repeat: no-repeat;   */
     /* background-size: cover;   */
@@ -42,25 +47,25 @@
     /* z-index: 100; */
 }
 
-.encabezado__salon{
+/*.encabezado__salon{
     border-radius: 5px;/*bordes redondeados header*/
     height: 50px;/*ancho heder*/
-}
+} 
 
-.imagenheader{
+/*.imagenheader{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 65px;
     height: 65px;
     border-radius: 20%;
-}
+}*/
 
 .img__inicio{
     background-size: contain;
 }
-
-.navegacion ul li{/*menu navegacion*/
+/*menu navegacion*/
+/*.navegacion ul li{
     display: inline-block;
     margin: 0px 30px;
     
@@ -90,7 +95,7 @@
 
 .lista{
     color: brown;
-}
+}*/
 
 .img-fluid{
     margin-top: 5px;
@@ -493,6 +498,7 @@ body {
     text-shadow: #fff 0 0 10px;
     text-align: center;
 }
+/* corregir menu contacto */
 .header {
     color: #36A0FF;
     font-size: 27px;
