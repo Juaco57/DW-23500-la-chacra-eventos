@@ -19,35 +19,9 @@
     border-radius: 50%;
 }
 
-.img__inicio{
-    background-size: contain;
-}
-
-/* .navegacion ul li a{ 
-    color: rgb(54, 3, 3);
-    text-decoration: none;
-    border-radius: 15px;
-    font-weight: bold;
-    transition: all 1s ease;
-}
-.navegacion ul li a:hover{
-    padding: 5px 10px;
-    background: #fff;
-    color: #000;
-    border-radius: 15px;
-    
-}
-
-.navegacion{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; 
-}*/
-
 .lista{
     color: brown;
-}*/
+}
 
 .img-fluid{
     margin-top: 5px;
@@ -89,7 +63,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    background-image: url(../Imagen/luces\ colgantes.jpg);
+    background-image: url(../Imagen/luces/colgantes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
