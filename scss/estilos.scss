@@ -38,19 +38,7 @@
 		transform: translateX(-500%);
 	}
 }
-/* .slides:hover .slide { 
-	animation-play-state: paused;
-}*/
-/* fin slider */
-/* page nosotros */
-/* fin page nosotros */
-/* .header {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-} */
-/* contacto */
-/* form contacto */
+
 @font-face {
 	font-family: 'FontAwesome';
 	src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -58,11 +46,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/* FORMULARIO =================================== */
-/* Informacion de Contacto*/
-/* Formulario de contacto*/
-/* Ventana de errores*/
-/*:::::Pie de Pagina*/
+
 .intro__info {
 	color: white;
 	text-shadow: #fff 0 0 10px;
@@ -501,7 +485,7 @@ form.form_contact {
 		right: 50px;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
 	.pie-pagina 
 		.grupo-1 {
 			width: 90%;
